@@ -23,9 +23,9 @@ graph TD
     NAT --> SingboxTun["singbox_tun<br>Interface with IP forwarding"]
     SingboxTun --> Internet["Internet/External Network"]
     
-    classDef vm fill:#b3e0ff,stroke:#0066cc;
-    classDef network fill:#c6ecc6,stroke:#339933;
-    classDef internet fill:#ffcccc,stroke:#cc0000;
+    classDef vm fill:#b3e0ff;
+    classDef network fill:#c6ecc6;
+    classDef internet fill:#ffcccc;
     
     class VM vm;
     class vSwitch,NAT,SingboxTun network;
